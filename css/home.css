@@ -1,0 +1,392 @@
+.home-main{
+    text-align: center;
+}
+
+.home-slider{
+    height: 100vh;
+    background: url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/ms_banner_img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    position: relative;
+}
+.home-title{
+    z-index: 10;
+    margin-top: 250px;
+}
+.home-title h1{
+    color: rgb(255, 208, 107);
+    font-size: 40px;
+    font-weight: 700; 
+    font-family:'Paytone One', cursive;
+}
+.button-home,
+.home-line-2,
+.home-line-1{
+    color: #fff;
+    z-index: 100;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.home-line-1 h3{
+    color: #fff;
+    font-size: 45px;
+    font-weight:200;
+    font-family: 'Paytone One', cursive;
+}
+.home-line-2 p{    
+    z-index: 10;
+    font-family: 'Itim', cursive ;
+    font-size: 20px;
+}
+.button-home{
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.button-home:hover{
+    background:#D3A550;
+    color: #fff;
+    border: 1px solid #D3A550;
+}
+.scroll-home{
+    background: url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/ic_scoll.webp) no-repeat center;
+    width: 18px;
+    height: 32px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+    align-self: center;
+    position: relative;
+    animation: up-down 2s infinite alternate;
+    z-index: 10;
+}
+.btn-scroll{
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+    margin-top: 20px;
+}
+@keyframes up-down{
+    0% {top:0px;}
+    10% {top:5px;}
+    20% {top: 7px;}
+    30% {top: 10px;}
+    40% {top: 12px;}
+    50% {top: 15px;}
+    60% {top:15px;}
+    70% {top: 12px;}
+    80% {top: 7px;}
+    90% {top: 5px;}
+    100% {top: 0px;}
+}
+
+/* PRODUCT =================== */   
+
+.title-product-content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.title-product-content a:hover{
+    color:#fff;
+}
+.product-title{
+    color:#D3A550;
+    text-align: center;
+    font-size: 30px;
+}
+.product-line-1{
+    color: #282828;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Itim', cursive;
+}
+.product-title-bottom{
+    background: url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/home_line.webp) no-repeat;
+    width: 314px;
+    height: 40px;
+}
+.product-content{
+    text-align: center;
+}
+.list-product{
+    justify-content: space-around;
+}
+.product-about{
+    position: relative; 
+    margin-bottom: 21px;
+}
+.tags{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+.new{
+    color: #fff;
+    background: #D3A550;
+    border-radius: 50%;
+    padding: 8px 7px;
+    transform: rotate(-15deg);
+    font-size: 13px;
+    font-weight: bold;
+}
+.discount{
+    color: #D3A550;
+    background: #000;
+    border-radius: 50%;
+    padding: 10px 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.product-now{
+    box-shadow: 0px 0.2px 3px 0.2px #a39f9f;
+    border-top: 1px solid #f1f1f1;
+    height: auto;
+}
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+.product-img img{
+    width: 100%;
+    transition: 0.5s;
+    max-width: 100%;
+}
+.product-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    overflow: hidden;
+}
+.info-content{
+    text-align: center;
+    position: absolute;
+    top: 45px;
+    background: rgb(245, 243, 241);
+    width: 100%;
+    transition: 0.5s;
+}
+.info-title{
+    text-align: center;
+    color: #000;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    padding:20px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.info-price{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.origin-price{
+    color: #D3A550;
+    margin: 0px 10px;
+    font-weight: 500;
+}
+.sale-price{
+    color: rgb(163, 161, 161);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+.button-order{
+    padding: 4px 20px;
+    font-weight: 400;
+    display: inline-block;
+    margin: 10px 0px;
+    background: #D3A550;
+    border: 1px solid #D3A550;
+    margin: 15px 0px 10px 5px ;
+    transition: 0.2s;
+}
+.button-order:hover{
+    color: #D3A550;
+    background-color: #fff;
+    border: 1px solid #D3A550;
+}
+.product-about:hover .info-content{
+    top: 0px;
+    transition: 0.5s;
+}
+.product-about:hover .product-img img{
+    transform: scale(1.1, 1.1);
+}
+/* STORY================================== */
+#story{
+    padding-top: 30px ;
+}
+.story-main{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.story-main img {
+    width: 100%;
+}
+.story-main-right{
+    position:absolute;
+    width: 45%;
+    right: 0;
+    padding-right: 50px;
+    font-size: 15px;
+}
+/* ABOUT ME ================================ */
+#about-me{
+    padding: 10px 25px;
+}
+.about-main{
+    border: 5px solid #D3A550;
+    justify-content: center;
+    align-items: center;
+}
+.content-img img{
+    width: 70%;
+}
+/* NEWS============================================= */
+#news{
+    padding-bottom: 50px;
+}
+.left-content {
+    justify-content: center;
+    height: 400px; 
+}
+.left-content img{
+    width: 100%;
+    transition: 0.4s;
+}
+.news-card{
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+.news-line-1{
+    color: #282828;
+    font-size: 13px;
+    font-weight:700;
+    padding: 10px 0px 0px 5px;
+    background: #f5f5f5;
+    height: 70px;
+    max-width: 100%;
+    font-family: 'Itim',cursive;
+}
+.news-line-2{
+    color: #282828;
+    font-size: 12px;
+    padding: 0px 5px;
+    background: #f5f5f5;
+}
+.card-news{
+    margin-bottom: 15px;
+}
+.card-news img{
+    max-width: 100%;
+    transition: 0.4s;
+    width: 100%;
+}
+.video{
+    position: relative;
+}
+.video-1{
+    margin-bottom: 60px;
+}
+.vide-2{
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+.video.video-2.row{
+     margin-bottom: 50px;
+}
+.video-img img{
+    max-width: 100%;
+    width: 100%;
+    transition: 0.4s;
+}
+.video-img i{
+    font-size: 35px;
+}
+.video-title{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px 10px;
+    text-align: center;
+}
+.img-news{
+    position: relative;
+    overflow: hidden;
+}
+.home-btn-play{
+    position: absolute;
+    color:#fff ;
+    top: 45%;
+    right: 50%;
+    z-index: 10;
+}
+.home-btn-play-2{
+    position: absolute;
+    color: #fff;
+    top: 38%;
+    left: 46%;
+    z-index: 1;
+}
+.home-btn-play-2:hover,
+.home-btn-play:hover{
+    color:#D3A550;
+}
+.news-line-3{
+    padding: 20px 10px;
+    color: #282828;
+    font-family: 'Itim', cursive;
+}
+.left-content-small{
+    margin-bottom: 15px;
+}
+.left-content-small:hover,
+.left-content:hover{
+    box-shadow: 0px 4px 5px 4px #f5f1f1;
+    transition: 0.3s;
+}
+.left-content-small:hover img,
+.video:hover .img-news img,
+.left-content:hover .img-news img{
+    transform: scale(1.1,1.1);
+    transition: 0.4s;
+}
+
+@media (max-width: 768px){
+    .story-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .story-main-right{
+        position: relative;
+        width: 100%;
+    }
+    .content-img{
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width:992px) { 
+    
+}
+@media (min-width: 992px) and (max-width: 1201px) {
+    
+}
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#info-address{
+    font-family: 'Itim',cursive;
+}
+
+.address-slider{
+    height: 300px;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #d3b673;
+    letter-spacing: 1.8px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/breadcrumb_bg5.png) no-repeat center;
+    font-family: 'Itim',cursive;
+}
+.store{
+    padding: 40px 0px;
+}
+.store h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.store h1{
+    font-weight: 700;
+    font-family: 'Itim', cursive;
+}

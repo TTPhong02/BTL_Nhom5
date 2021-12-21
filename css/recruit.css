@@ -40,7 +40,7 @@ ul {
 
 
 
-Header 
+/* Header */
 header{
     position: fixed;
     top: 0;
@@ -55,16 +55,16 @@ header.sticky {
     padding: 10px 0px;
     scroll-behavior: smooth;
     z-index: 1000;
-} 
+}
 
- #header > .container {
+#header > .container {
     display: flex;
     margin-top: 20px;
     justify-content: space-around;
     flex-direction: row;
-} 
+}
 
- .navbar-brand {
+.navbar-brand {
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
     margin-right: 1rem;
@@ -232,7 +232,7 @@ header.sticky {
 
 .row {
     display: flex;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 }
 .about-info .about-title {
     font-size: 28px;
@@ -304,6 +304,7 @@ header.sticky {
 /* Footer */
 #footer{
     width: 100%;
+
 }
 .footer-wrap{
     background: url('https://tocotocotea.com/wp-content/themes/tocotocotea/assets/images/ft_bg_img.png') no-repeat center ;

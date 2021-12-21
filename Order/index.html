@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="app.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="order">
+        <div class="order-header">
+            <a class="logo" href="#">
+                <img src="./img/logo.png">
+            </a>
+
+            <div class="search">
+                <i class='bx bx-search-alt-2'></i>
+                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+            </div>
+            <div class="log-in">
+                <button>Đăng nhập</button>
+            </div>
+        </div>
+        <div class="order-main">
+            <div class="order-content">
+                <div class="order-sidebar sidebar-left">
+                    <div class="cat-title">
+                        Danh mục
+                    </div>
+                    <div class="list-cat">
+                        <a class="cat-item" href="#mon-noi-bat">
+                            <div class="cat-name">
+                                Món nổi bật
+                            </div>
+                            <div class="cat-amount">
+                                12
+                            </div>
+                        </a>
+                        <a class="cat-item" href="#tra-sua">
+                            <div class="cat-name">
+                                Trà sữa
+                            </div>
+                            <div class="cat-amount">
+                                16
+                            </div>
+                        </a>
+                        <a class="cat-item" href="#tea">
+                            <div class="cat-name">
+                                Fresh Fruit Tea
+                            </div>
+                            <div class="cat-amount">
+                                7
+                            </div>
+                        </a>
+                        <a class="cat-item" href="#cream">
+                            <div class="cat-name">
+                                Macchiato Cream Cheese
+                            </div>
+                            <div class="cat-amount">
+                                4
+                            </div>
+                        </a>
+                        <a class="cat-item" href="#sua-chua-deo">
+                            <div class="cat-name">
+                                Sữa Chua Dẻo
+                            </div>
+                            <div class="cat-amount">
+                                3
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="order-center">
+                    <div class="main-center">
+                        <div class="category" id="mon-noi-bat ">
+                            <div class="category-name">
+                                Món nổi bật
+                                <i class='bx bxs-chevron-down js-down-noi-bat btn' data-bs-toggle="collapse"
+                                    href="#collapseExample1" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample"></i>
+                            </div>
+                            <div class="list-product" id="collapseExample1">
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/Royal-Pearl-Milk-Coffee.png">
+                                    <div class="product-name">
+                                        Royal Pearl Milk Coffee
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            30,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/Grass-Jelly-Milk-Coffee.png">
+                                    <div class="product-name">
+                                        Grass Jelly Milk Coffee
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            30,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/ezgif.com-gif-maker-12.jpg">
+                                    <div class="product-name">
+                                        Tiger Sugar
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            52,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/ezgif.com-gif-maker-10.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Trân Châu Hoàng Gia
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            46,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/choco-creamcake.png">
+                                    <div class="product-name">
+                                        Choco Creamcake Hạt dẻ
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            49,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/Hinh-anh-sp-website_ruby-.jpg">
+                                    <div class="product-name">
+                                        Ruby Creamcake Hạt dẻ
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/tra-sua-ba-anh-em.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Ba Anh Em
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/tra-sua-panda.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Panda
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            30,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/tra-sua-kim-cuong.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Kim Cương Đen Okinawa
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/o-long.png">
+                                    <div class="product-name">
+                                        Ô Long Kem Phô Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            44,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/tra-dao-nhiet-doi.png">
+                                    <div class="product-name">
+                                        Trà dứa nhiệt đới
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            30,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/mon-noi-bat-img/tra-sua-hanh-phuc.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Hạnh Phúc
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            46,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category" id="tra-sua">
+                            <div class="category-name">
+                                Trà sữa
+                                <i class='bx bxs-chevron-down js-down-tra-sua btn' data-bs-toggle="collapse"
+                                    href="#collapseExample2" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample"></i>
+                            </div>
+                            <div class="list-product" id="collapseExample2">
+                                <div class="product">
+                                    <img src="./img/tra-sua/matcha-dau-do.jpg">
+                                    <div class="product-name">
+                                        Matcha Đậu Đỏ
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            49,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/sua-tuoi-tran-chau-baby-kem-cafe.jpg">
+                                    <div class="product-name">
+                                        Sữa Tươi Trân Châu Baby Kem Café
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            49,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/oolong-tran-chau-baby-kem-cafe.jpg">
+                                    <div class="product-name">
+                                        Oolong Trân châu Baby Kem Café
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            49,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-xanh.jpg">
+                                    <div class="product-name">
+                                        Trà Xanh
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            32,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-xanh-sua-vi-nhai.jpg">
+                                    <div class="product-name">
+                                        Oolong Trân châu Baby Kem Café
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            30,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua-matcha.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Matcha
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua-o-long.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Ô Long
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            39,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/o-long-thai-cuc.jpg">
+                                    <div class="product-name">
+                                        Ô Long Thái Cực
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            45,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua-caramel-grilles-130.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Caramel Grillé 130
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            42,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua-khoai-mon-hoang-kim.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Khoai Môn Hoàng Kim
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            46,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/hong-tra.jpg">
+                                    <div class="product-name">
+                                        Hồng Trà
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            32,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/matcha-dau-do.jpg">
+                                    <div class="product-name">
+                                        Matcha Đậu Đỏ
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            49,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua-socola.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Socola
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua-bac-ha.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa Bạc Hà
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua-dau-tay.png">
+                                    <div class="product-name">
+                                        Trà Sữa Dâu Tây
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/tra-sua/tra-sua.jpg">
+                                    <div class="product-name">
+                                        Trà Sữa
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            30,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category" id="tea">
+                            <div class="category-name">
+                                Fresh Fruit Tea
+                                <i class='bx bxs-chevron-down js-down-tea btn' data-bs-toggle="collapse"
+                                    href="#collapseExample3" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample"></i>
+                            </div>
+                            <div class="list-product" id="collapseExample3">
+                                <div class="product">
+                                    <img src="./img/Tea/chanh-leo-tran-chau-suong-mai.jpg">
+                                    <div class="product-name">
+                                        Chanh Leo Trân Châu Sương Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            39,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Tea/probi-buoi-tran-chau-suong-mai.jpg">
+                                    <div class="product-name">
+                                        Probi Bưởi Trân Châu Sương Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            42,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Tea/probi-xoai-tran-chau-suong-mai.jpg">
+                                    <div class="product-name">
+                                        Probi Xoài Trân Châu Sương Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            42,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Tea/tra-xanh-chanh-leo.jpg">
+                                    <div class="product-name">
+                                        Trà Xanh Chanh Leo
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            33,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Tea/tra-xanh-xoai.jpg">
+                                    <div class="product-name">
+                                        Trà Xanh Xoài
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            30,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Tea/tra-dau-tam-pha-le-tuyet.jpg">
+                                    <div class="product-name">
+                                        Trà dâu tằm pha lê tuyết
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            42,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Tea/hong-tra-buoi-mat-ong.jpg">
+                                    <div class="product-name">
+                                        Hồng Trà Bưởi Mật Ong
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            42,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category" id="cream">
+                            <div class="category-name">
+                                Macchiato Cream Cheese
+                                <i class='bx bxs-chevron-down js-down-cream btn' data-bs-toggle="collapse"
+                                    href="#collapseExample4" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample"></i>
+                            </div>
+                            <div class="list-product" id="collapseExample4">
+                                <div class="product">
+                                    <img src="./img/Cream/tra-xanh-kem-pho-mai.jpg">
+                                    <div class="product-name">
+                                        Dâu Tằm Kem Phô Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Cream/hong-tra-kem-pho-mai.jpg">
+                                    <div class="product-name">
+                                        Hồng Trà Kem Phô Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            42,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Cream/tra-xanh-kem-pho-mai.jpg">
+                                    <div class="product-name">
+                                        Trà Xanh Kem Phô Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Cream/matcha-kem-pho-mai.png">
+                                    <div class="product-name">
+                                        Matcha Kem Phô Mai
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            40,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="category" id="sua-chua-deo">
+                            <div class="category-name">
+                                Sữa Chua Dẻo
+                                <i class='bx bxs-chevron-down js-down-sua-chua btn' data-bs-toggle="collapse"
+                                    href="#collapseExample5" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample"></i>
+                            </div>
+                            <div class="list-product" id="collapseExample5">
+                                <div class="product">
+                                    <img src="./img/Sua-chua/sua-chua-dau-tam-hoang-kim.png">
+                                    <div class="product-name">
+                                        Sữa Chua Dâu Tằm Hoàng Kim
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            39,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Sua-chua/sua-chua-dau-tam-hat-de-.png">
+                                    <div class="product-name">
+                                        Sữa Chua Dâu Tằm Hạt Dẻ
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            42,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+                                </div>
+                                <div class="product">
+                                    <img src="./img/Sua-chua/sua-chua-trang-.png">
+                                    <div class="product-name">
+                                        Sữa Chua Trắng
+                                    </div>
+                                    <div class="product-price">
+                                        <div class="price-origin">
+                                            29,000đ
+                                        </div>
+                                        <div class="price-safe">
+                                            32,000đ
+                                        </div>
+                                    </div>
+                                    <div class="icon-add">
+                                        +
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-sidebar sidebar-right">
+                    <div class="cart-header">
+                        <div class="cart-title-left">
+                            Giỏ hàng của tôi
+                        </div>
+                        <div class="cart-title-right">
+                            Xóa tất cả
+                        </div>
+                    </div>
+                    <div class="cart-quantily">
+                        Chưa có sản phẩm nào!
+                    </div>
+                    <div class="cart-bottom">
+                        <div class="cart-ss1">
+                            <img src="./img/mon-noi-bat-img/demo-tra-sua.png">
+                            <div class="one">x</div>
+                            <div class="two">0</div>
+                            <div class="three">=</div>
+                            <div class="four">0đ</div>
+                        </div>
+                        <div class="cart-ss2">
+                            <div class="cart-pay">
+                                Thanh toán
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-c hide">
+        <div class="modal-inner ">
+            <div class="modal-header-c">
+                <div class="modal-img">
+                    <img class='image1' src="">
+                </div>
+                <div class="modal-title">
+                    <div class="product-name1 fifter">
+                        Sữa Chua Dâu Tằm Hạt Dẻ
+                    </div>
+                    <div class="product-price">
+                        <div class="price-origin">
+                            29,000đ
+                        </div>
+                        <div class="price-safe abc">
+                            39,000đ
+                        </div>
+                    </div>
+                    <p class="infomation">Chưa có thông tin</p>
+                    <div class="buy">
+                        <div class="remove-buy">
+                            -
+                        </div>
+                        <p>1</p>
+                        <div class="add-buy">
+                            +
+                        </div>
+                        <div class="price">
+                            +29,000đ
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-close">
+                    <i class='bx bx-x' ></i>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="customize type">
+                    <div class="customize-title">
+                        <p>Chọn loại</p>
+                        <i class='bx bxs-chevron-down'></i>
+                    </div>
+                    <div class="customize-content">
+                        <div class="radio">
+                            <input type="radio" id="radio-type1" name="group-radio-type" />
+                            <label for="radio-type1">Lạnh</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="radio-type2" name="group-radio-type" />
+                            <label for="radio-type2">Nóng</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="customize size">
+                    <div class="customize-title">
+                        <p>Chọn size</p>
+                        <i class='bx bxs-chevron-down'></i>
+                    </div>
+                    <div class="customize-content">
+                        <div class="radio">
+                            <input type="radio" id="radio-size1" name="group-radio-size" />
+                            <label for="radio-size1">Size M</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="radio-size2" name="group-radio-size" />
+                            <label for="radio-size2">Size L</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="customize sugar">
+                    <div class="customize-title">
+                        <p>Chọn đuòng</p>
+                        <i class='bx bxs-chevron-down'></i>
+                    </div>
+                    <div class="customize-content">
+                        <div class="radio">
+                            <input type="radio" id="radio-sugar" name="group-radio-sugar" />
+                            <label for="radio-sugar">100% đường</label>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="customize ice">
+                    <div class="customize-title">
+                        <p>Chọn đá</p>
+                        <i class='bx bxs-chevron-down'></i>
+                    </div>
+                    <div class="customize-content xep">
+                        <div class="trai">
+                            <div class="radio">
+                                <input type="radio" id="radio1" name="group-radio" />
+                                <label for="radio1">Không đá mát</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="radio2" name="group-radio" />
+                                <label for="radio2">100% đá</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="radio3" name="group-radio" />
+                                <label for="radio3">50% đá</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" id="radio4" name="group-radio" />
+                                <label for="radio4">Không đá</label>
+                            </div>
+                       </div>
+                       <div class="phai">
+                        <div class="radio">
+                            <input type="radio" id="radio5" name="group-radio" />
+                            <label for="radio5">Làm nóng</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="radio6" name="group-radio" />
+                            <label for="radio6">70% đá</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" id="radio7" name="group-radio" />
+                            <label for="radio7">30% đá</label>
+                        </div>
+                       </div>  
+                    </div>
+                </div>
+                <div class="customize topping"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="app.js">
+</script>
+
+</html>

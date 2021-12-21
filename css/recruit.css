@@ -335,7 +335,7 @@ header.sticky {
 }
 .footer-line i,
 .footer-title h3{
-    color: rgb(253, 183, 32);
+    color: #D3A550;
     font-size: 20px;
     font-weight: bold;
     padding-right: 5px;
@@ -365,7 +365,7 @@ header.sticky {
 .footer-logo
 .footer-address,
 .footer-info{
-    padding: 0px 20px;
+    padding-left: 20px;
 }
 
 
@@ -384,10 +384,8 @@ header.sticky {
 }
 .footer-bottom-right {
     font-size: 13px;
-    z-index: 1;
-    
+    z-index: 1;   
 }
-
 
 @media (max-width: 768px){
     .nav-menu{
